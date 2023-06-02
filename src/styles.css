@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+h3{
+  margin:2em 0;
+}
+
+.first-button,
+.second-button{
+  display:block;
+  width: 200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  text-Align:center;
+  margin: 20px 0;
+  border: none;
+}
+
+.delete-button{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bg-primary{
+  background:blue;
+  color: white;
+}
+
+.bg-secondary {
+  background: yellow;
+  color: black;
+}
+
+.bg-success{
+  background:lime;
+  color: black;
+}
+
+.bg-danger {
+  background: red;
+  color: black;
+}
+
